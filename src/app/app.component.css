@@ -1,0 +1,24 @@
+
+.todo-app{
+  width: 500px;
+  height: 80vh;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+.filler_Text{
+  max-width: 100%;
+}
+app-todocomponent{
+  width: 100%;
+  overflow-y: auto;
+  margin-bottom: 80px;
+  scroll-behavior: smooth;
+}
+.titleTodo{
+  text-align: center;
+}
